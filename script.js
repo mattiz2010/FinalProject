@@ -16,6 +16,7 @@ var fontStyle2 = document.getElementById("style2");
 var blackFont = document.getElementById("blackColor");
 var whiteFont = document.getElementById("whiteColor");
 var googleButton = document.getElementById("google");
+let webs = document.getElementById("otherWebsites");
 /// Code
 
 buttonContact.onclick = clickedContact;
@@ -31,61 +32,66 @@ fontStyle2.onclick = font2;
 whiteFont.onclick = white;
 blackFont.onclick = black;
 googleButton.onclick = googleSite;
+webs.onclick = websites;
 
 settingsPage.style.visibility = "hidden";
 contact.style.visibility = "hidden";
 notificationPage.style.visibility = "hidden";
 
 function clickedContact() {
-    contact.style.visibility = "visible";
+	contact.style.visibility = "visible";
 }
 
 function closedContact() {
-    contact.style.visibility = "hidden";
+	contact.style.visibility = "hidden";
 }
 
 function openSettings() {
-    settingsPage.style.visibility = "visible";
+	settingsPage.style.visibility = "visible";
 }
 
 function closeSettings() {
-    settingsPage.style.visibility = "hidden";
+	settingsPage.style.visibility = "hidden";
 }
 
 function blueBackground() {
-    body1.style.backgroundColor = "#c2e3f7";
+	body1.style.backgroundColor = "#c2e3f7";
 }
 
 function greenBackground() {
-    body1.style.backgroundColor = "#90ed7f";
+	body1.style.backgroundColor = "#90ed7f";
 }
 
 function openNotifications() {
-    notificationPage.style.visibility = "visible";
+	notificationPage.style.visibility = "visible";
 }
 
 function closeNotification() {
-    notificationPage.style.visibility = "hidden";
+	notificationPage.style.visibility = "hidden";
 }
 
 function font1() {
-    body1.style.fontFamily =
-        "Cambria, Cochin, Georgia, Times, Times New Roman, serif";
-    fontStyle1.textContent = "Current style";
-    fontStyle2.textContent = "Gill Sans";
+	body1.style.fontFamily =
+		"Cambria, Cochin, Georgia, Times, Times New Roman, serif";
+	fontStyle1.textContent = "Current style";
+	fontStyle2.textContent = "Gill Sans";
 }
 function font2() {
-    body1.style.fontFamily = "Gill Sans, Gill Sans MT, Calibri, Trebuchet MS";
-    fontStyle2.textContent = "Current style";
-    fontStyle1.textContent = "Cambria";
+	body1.style.fontFamily = "Gill Sans, Gill Sans MT, Calibri, Trebuchet MS";
+	fontStyle2.textContent = "Current style";
+	fontStyle1.textContent = "Cambria";
 }
 
 function black() {
-    body1.style.color = "Black";
+	body1.style.color = "Black";
 }
 function white() {
-    body1.style.color = "white";
+	body1.style.color = "white";
 }
 function googleSite() {
-    window.location.href = "https://www.google.com/"; // I'm using example but you can use google.
+	window.location.href = "https://www.google.com/"; // I'm using example but you can use google.
+}
+
+function websites() {
+	window.location.href = "https://mywebs1.netlify.app";
 }
