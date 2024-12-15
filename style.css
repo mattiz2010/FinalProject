@@ -1,277 +1,295 @@
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 body {
-    background-color: #c2e3f7;
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: x-large;
+	background-color: #c2e3f7;
+	font-family: "Inter", sans-serif;
+	font-optical-sizing: auto;
+	font-style: x-large;
 }
 
 #hello {
-    background-color: #6793d4;
-    width: 15%;
-    padding-left: 1.5%;
-    border-radius: 15px;
-    cursor: default;
-    border: 2px solid rgb(54, 68, 68);
+	background-color: #6793d4;
+	width: 15%;
+	padding-left: 1.5%;
+	border-radius: 15px;
+	cursor: default;
+	border: 2px solid rgb(54, 68, 68);
 }
 
 #homeText {
-    background-color: #618fa1;
-    width: 70%;
-    position: fixed;
-    text-align: center;
-    left: 15%;
-    top: 14%;
-    border-radius: 70px;
-    height: 85%;
-    cursor: default;
+	background-color: #618fa1;
+	width: 70%;
+	position: fixed;
+	text-align: center;
+	left: 15%;
+	top: 14%;
+	border-radius: 70px;
+	height: 85%;
+	cursor: default;
 }
 
 #button1 {
-    background-color: #6793d4;
-    width: 15%;
-    padding-left: 1.5%;
-    border-radius: 15px;
-    font-size: 25px;
-    border: 2px solid rgb(54, 68, 68);
-    position: fixed;
-    left: 68%;
-    top: 3%;
+	background-color: #6793d4;
+	width: 15%;
+	padding-left: 1.5%;
+	border-radius: 15px;
+	font-size: 25px;
+	border: 2px solid rgb(54, 68, 68);
+	position: fixed;
+	left: 68%;
+	top: 3%;
 }
 
 #button1:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #button2 {
-    background-color: #6793d4;
-    width: 15%;
-    padding-left: 1.5%;
-    border-radius: 15px;
-    font-size: 25px;
-    border: 2px solid rgb(54, 68, 68);
-    position: fixed;
-    left: 84%;
-    top: 3%;
+	background-color: #6793d4;
+	width: 15%;
+	padding-left: 1.5%;
+	border-radius: 15px;
+	font-size: 25px;
+	border: 2px solid rgb(54, 68, 68);
+	position: fixed;
+	left: 84%;
+	top: 3%;
 }
 
 #button2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #contactPage {
-    background-color: #327e9c;
-    width: 25%;
-    position: fixed;
-    text-align: center;
-    left: 75%;
-    top: 0%;
-    border-radius: 35px;
-    height: 100%;
-    cursor: default;
+	background-color: #327e9c;
+	width: 25%;
+	position: fixed;
+	text-align: center;
+	left: 75%;
+	top: 0%;
+	border-radius: 35px;
+	height: 100%;
+	cursor: default;
 }
 
 #closeContact {
-    background-color: red;
-    color: black;
-    font-size: xx-large;
-    width: 3%;
-    position: fixed;
-    text-align: center;
-    left: 73.5%;
-    top: 1%;
-    height: 6%;
-    border-radius: 5px;
+	background-color: red;
+	color: black;
+	font-size: xx-large;
+	width: 3%;
+	position: fixed;
+	text-align: center;
+	left: 73.5%;
+	top: 1%;
+	height: 6%;
+	border-radius: 5px;
 }
 
 #closeContact:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #settingsPage {
-    background-color: gray;
-    width: 25%;
-    position: fixed;
-    text-align: center;
-    left: 75%;
-    top: 0%;
-    border-radius: 35px;
-    height: 100%;
-    cursor: default;
+	background-color: gray;
+	width: 25%;
+	position: fixed;
+	text-align: center;
+	left: 75%;
+	top: 0%;
+	border-radius: 35px;
+	height: 100%;
+	cursor: default;
 }
 
 #closeSettings {
-    background-color: red;
-    color: black;
-    font-size: xx-large;
-    width: 3%;
-    position: fixed;
-    text-align: center;
-    left: 73.5%;
-    top: 1%;
-    height: 6%;
-    border-radius: 5px;
+	background-color: red;
+	color: black;
+	font-size: xx-large;
+	width: 3%;
+	position: fixed;
+	text-align: center;
+	left: 73.5%;
+	top: 1%;
+	height: 6%;
+	border-radius: 5px;
 }
 
 #closeSettings:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #colorBlue {
-    width: 30%;
-    background-color: #c2e3f7;
-    font-size: 30px;
-    border-radius: 15px;
+	width: 30%;
+	background-color: #c2e3f7;
+	font-size: 30px;
+	border-radius: 15px;
 }
 
 #colorBlue:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #colorGreen {
-    width: 30%;
-    background-color: #90ed7f;
-    font-size: 30px;
-    border-radius: 15px;
+	width: 30%;
+	background-color: #90ed7f;
+	font-size: 30px;
+	border-radius: 15px;
 }
 
 #colorGreen:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #notificationButton {
-    background-color: #6793d4;
-    position: fixed;
-    text-align: center;
-    left: 97%;
-    top: 95%;
+	background-color: #6793d4;
+	position: fixed;
+	text-align: center;
+	left: 97%;
+	top: 95%;
 }
 
 #notificationButton:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #imageBell {
-    padding-top: 5px;
-    height: 20px;
-    width: 20px;
+	padding-top: 5px;
+	height: 20px;
+	width: 20px;
 }
 
 #notificationsPage {
-    background-color: rgb(9, 135, 214);
-    width: 25%;
-    position: fixed;
-    text-align: center;
-    left: 75%;
-    top: 0%;
-    border-radius: 35px;
-    height: 100%;
-    cursor: default;
+	background-color: rgb(9, 135, 214);
+	width: 25%;
+	position: fixed;
+	text-align: center;
+	left: 75%;
+	top: 0%;
+	border-radius: 35px;
+	height: 100%;
+	cursor: default;
 }
 
 #closeNotifications {
-    background-color: red;
-    color: black;
-    font-size: xx-large;
-    width: 3%;
-    position: fixed;
-    text-align: center;
-    left: 73.5%;
-    top: 1%;
-    height: 6%;
-    border-radius: 5px;
+	background-color: red;
+	color: black;
+	font-size: xx-large;
+	width: 3%;
+	position: fixed;
+	text-align: center;
+	left: 73.5%;
+	top: 1%;
+	height: 6%;
+	border-radius: 5px;
 }
 
 #closeNotifications:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #style1 {
-    font-size: 31.5px;
-    border: 2px solid black;
-    background-color: lightgray;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    border-radius: 15px;
+	font-size: 31.5px;
+	border: 2px solid black;
+	background-color: lightgray;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	border-radius: 15px;
 }
 
 #style1:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #style2 {
-    font-size: 30px;
-    border: 2px solid black;
-    background-color: lightgray;
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
-    border-radius: 15px;
+	font-size: 30px;
+	border: 2px solid black;
+	background-color: lightgray;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+	border-radius: 15px;
 }
 
 #style2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #blackColor {
-    background-color: white;
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 30px;
-    border-radius: 15px;
+	background-color: white;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 30px;
+	border-radius: 15px;
 }
 
 #blackColor:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 #whiteColor {
-    background-color: black;
-    color: white;
-    font-size: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 15px;
+	background-color: black;
+	color: white;
+	font-size: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 15px;
 }
 
 #whiteColor:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
 
 #google {
-    background-color: white;
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 30px;
-    border-radius: 15px;
+	background-color: white;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 30px;
+	border-radius: 15px;
 }
 
 #google:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-        0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    cursor: pointer;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
+}
+
+#otherWebsites {
+	position: fixed;
+	cursor: pointer;
+	height: 10%;
+	width: 25%;
+	top: 75%;
+	left: 37.5%;
+	font-size: 50px;
+	background-color: #6793d4;
+	border-radius: 15px;
+}
+
+#otherWebsites:hover {
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	cursor: pointer;
 }
